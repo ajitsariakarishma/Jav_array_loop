@@ -14,15 +14,12 @@ public class SumOfValues {
         for (int b = 0; b < a.length; b++) {
             System.out.println("Enter number one by one : ");
             int c = scanner.nextInt();// User enters number one by one
+             a[b]=c;
+            sum= sum+c;
 
         }
-        for(int j :a){  // listing values stored in array a one by one
-            sum+=j; // storing and adding the value one by one
 
-        }
         System.out.print(" The sum of numbers is :"+ sum);
-
-
 
     }
 }
